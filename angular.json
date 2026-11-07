@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "SecureVote:build:production"
+              "buildTarget": "SecureVote:build:production"
             },
             "development": {
-              "browserTarget": "SecureVote:build:development"
+              "buildTarget": "SecureVote:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "SecureVote:build"
+            "buildTarget": "SecureVote:build"
           }
         },
         "test": {
